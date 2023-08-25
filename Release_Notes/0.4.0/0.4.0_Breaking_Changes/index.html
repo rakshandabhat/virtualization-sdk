@@ -9,24 +9,22 @@
       
       
       
-        <link rel="prev" href="../User_Visible_Errors/">
+        <link rel="prev" href="../0.4.0/">
       
       
-        <link rel="next" href="../Strings/">
-      
-      <link rel="icon" href="../../images/favicon_logo.png">
+      <link rel="icon" href="../../../images/favicon_logo.png">
       <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.7">
     
     
       
-        <title>Dealing With Sensitive Data - Delphix Virtualization SDK 4.1.0</title>
+        <title>Breaking Changes - Early Preview 2 (v.0.4.0) - Delphix Virtualization SDK 4.1.0</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.ded33207.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ded33207.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.a0c5b2b5.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.a0c5b2b5.min.css">
       
       
 
@@ -42,11 +40,11 @@
       
     
     
-      <link rel="stylesheet" href="../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
     
-      <link rel="stylesheet" href="../../stylesheets/delphix-brand.css">
+      <link rel="stylesheet" href="../../../stylesheets/delphix-brand.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -83,7 +81,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#dealing-with-sensitive-data" class="md-skip">
+        <a href="#breaking-changes-early-preview-2-v040" class="md-skip">
           Skip to content
         </a>
       
@@ -99,9 +97,9 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="Delphix Virtualization SDK 4.1.0" class="md-header__button md-logo" aria-label="Delphix Virtualization SDK 4.1.0" data-md-component="logo">
+    <a href="../../.." title="Delphix Virtualization SDK 4.1.0" class="md-header__button md-logo" aria-label="Delphix Virtualization SDK 4.1.0" data-md-component="logo">
       
-  <img src="../../images/header_logo.png" alt="logo">
+  <img src="../../../images/header_logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -117,7 +115,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Dealing With Sensitive Data
+              Breaking Changes - Early Preview 2 (v.0.4.0)
             
           </span>
         </div>
@@ -186,7 +184,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="../.." class="md-tabs__link">
+    <a href="../../.." class="md-tabs__link">
       Welcome!
     </a>
   </li>
@@ -198,7 +196,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="../../Getting_Started/" class="md-tabs__link">
+    <a href="../../../Getting_Started/" class="md-tabs__link">
       Getting Started
     </a>
   </li>
@@ -213,7 +211,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../Building_Your_First_Plugin/Overview/" class="md-tabs__link">
+      <a href="../../../Building_Your_First_Plugin/Overview/" class="md-tabs__link">
         Building Your First Plugin
       </a>
     </li>
@@ -229,7 +227,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../Versioning_And_Upgrade/Overview/" class="md-tabs__link">
+      <a href="../../../Versioning_And_Upgrade/Overview/" class="md-tabs__link">
         Versioning And Upgrade
       </a>
     </li>
@@ -245,7 +243,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../References/CLI/" class="md-tabs__link">
+      <a href="../../../References/CLI/" class="md-tabs__link">
         References
       </a>
     </li>
@@ -255,15 +253,13 @@
         
   
   
-    
-  
 
 
   
   
   
     <li class="md-tabs__item">
-      <a href="../CLI_Configuration_File/" class="md-tabs__link md-tabs__link--active">
+      <a href="../../../Best_Practices/CLI_Configuration_File/" class="md-tabs__link">
         Best Practices
       </a>
     </li>
@@ -273,6 +269,8 @@
         
   
   
+    
+  
 
 
   
@@ -284,7 +282,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../Release_Notes/4.1.0/4.1.0/" class="md-tabs__link">
+      <a href="../../4.1.0/4.1.0/" class="md-tabs__link md-tabs__link--active">
         Release Notes
       </a>
     </li>
@@ -320,9 +318,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="Delphix Virtualization SDK 4.1.0" class="md-nav__button md-logo" aria-label="Delphix Virtualization SDK 4.1.0" data-md-component="logo">
+    <a href="../../.." title="Delphix Virtualization SDK 4.1.0" class="md-nav__button md-logo" aria-label="Delphix Virtualization SDK 4.1.0" data-md-component="logo">
       
-  <img src="../../images/header_logo.png" alt="logo">
+  <img src="../../../images/header_logo.png" alt="logo">
 
     </a>
     Delphix Virtualization SDK 4.1.0
@@ -350,7 +348,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         Welcome!
       </a>
     </li>
@@ -365,7 +363,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Getting_Started/" class="md-nav__link">
+      <a href="../../../Getting_Started/" class="md-nav__link">
         Getting Started
       </a>
     </li>
@@ -407,7 +405,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Building_Your_First_Plugin/Overview/" class="md-nav__link">
+      <a href="../../../Building_Your_First_Plugin/Overview/" class="md-nav__link">
         Overview
       </a>
     </li>
@@ -421,7 +419,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Building_Your_First_Plugin/Initial_Setup/" class="md-nav__link">
+      <a href="../../../Building_Your_First_Plugin/Initial_Setup/" class="md-nav__link">
         Initial Setup
       </a>
     </li>
@@ -435,7 +433,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Building_Your_First_Plugin/Discovery/" class="md-nav__link">
+      <a href="../../../Building_Your_First_Plugin/Discovery/" class="md-nav__link">
         Discovery
       </a>
     </li>
@@ -449,7 +447,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Building_Your_First_Plugin/Data_Ingestion/" class="md-nav__link">
+      <a href="../../../Building_Your_First_Plugin/Data_Ingestion/" class="md-nav__link">
         Data Ingestion
       </a>
     </li>
@@ -463,7 +461,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Building_Your_First_Plugin/Provisioning/" class="md-nav__link">
+      <a href="../../../Building_Your_First_Plugin/Provisioning/" class="md-nav__link">
         Provisioning
       </a>
     </li>
@@ -512,7 +510,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Versioning_And_Upgrade/Overview/" class="md-nav__link">
+      <a href="../../../Versioning_And_Upgrade/Overview/" class="md-nav__link">
         Overview
       </a>
     </li>
@@ -526,7 +524,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Versioning_And_Upgrade/Versioning/" class="md-nav__link">
+      <a href="../../../Versioning_And_Upgrade/Versioning/" class="md-nav__link">
         Versioning
       </a>
     </li>
@@ -540,7 +538,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Versioning_And_Upgrade/Upgrade/" class="md-nav__link">
+      <a href="../../../Versioning_And_Upgrade/Upgrade/" class="md-nav__link">
         Upgrade
       </a>
     </li>
@@ -554,7 +552,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Versioning_And_Upgrade/Compatibility/" class="md-nav__link">
+      <a href="../../../Versioning_And_Upgrade/Compatibility/" class="md-nav__link">
         Compatibility
       </a>
     </li>
@@ -568,7 +566,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Versioning_And_Upgrade/Backports_And_Hotfixes/" class="md-nav__link">
+      <a href="../../../Versioning_And_Upgrade/Backports_And_Hotfixes/" class="md-nav__link">
         Backports and Hotfixes
       </a>
     </li>
@@ -582,7 +580,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Versioning_And_Upgrade/Replication/" class="md-nav__link">
+      <a href="../../../Versioning_And_Upgrade/Replication/" class="md-nav__link">
         Replication
       </a>
     </li>
@@ -623,7 +621,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Versioning_And_Upgrade/Lua_Toolkit_To_SDK_Plugin_Migration/Overview/" class="md-nav__link">
+      <a href="../../../Versioning_And_Upgrade/Lua_Toolkit_To_SDK_Plugin_Migration/Overview/" class="md-nav__link">
         Overview
       </a>
     </li>
@@ -637,7 +635,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Versioning_And_Upgrade/Lua_Toolkit_To_SDK_Plugin_Migration/Plugin_Config/" class="md-nav__link">
+      <a href="../../../Versioning_And_Upgrade/Lua_Toolkit_To_SDK_Plugin_Migration/Plugin_Config/" class="md-nav__link">
         Plugin Config
       </a>
     </li>
@@ -651,7 +649,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Versioning_And_Upgrade/Lua_Toolkit_To_SDK_Plugin_Migration/Decorators/" class="md-nav__link">
+      <a href="../../../Versioning_And_Upgrade/Lua_Toolkit_To_SDK_Plugin_Migration/Decorators/" class="md-nav__link">
         Decorators
       </a>
     </li>
@@ -665,7 +663,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Versioning_And_Upgrade/Lua_Toolkit_To_SDK_Plugin_Migration/Plugin_Operations/" class="md-nav__link">
+      <a href="../../../Versioning_And_Upgrade/Lua_Toolkit_To_SDK_Plugin_Migration/Plugin_Operations/" class="md-nav__link">
         Plugin Operations
       </a>
     </li>
@@ -679,7 +677,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Versioning_And_Upgrade/Lua_Toolkit_To_SDK_Plugin_Migration/Converting_Migration_Scripts/" class="md-nav__link">
+      <a href="../../../Versioning_And_Upgrade/Lua_Toolkit_To_SDK_Plugin_Migration/Converting_Migration_Scripts/" class="md-nav__link">
         Converting Lua Upgrade Scripts to Python Data Migrations
       </a>
     </li>
@@ -735,7 +733,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../References/CLI/" class="md-nav__link">
+      <a href="../../../References/CLI/" class="md-nav__link">
         CLI
       </a>
     </li>
@@ -749,7 +747,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../References/Plugin_Config/" class="md-nav__link">
+      <a href="../../../References/Plugin_Config/" class="md-nav__link">
         Plugin Config
       </a>
     </li>
@@ -763,7 +761,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../References/Decorators/" class="md-nav__link">
+      <a href="../../../References/Decorators/" class="md-nav__link">
         Decorators
       </a>
     </li>
@@ -777,7 +775,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../References/Plugin_Operations/" class="md-nav__link">
+      <a href="../../../References/Plugin_Operations/" class="md-nav__link">
         Plugin Operations
       </a>
     </li>
@@ -791,7 +789,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../References/Schemas/" class="md-nav__link">
+      <a href="../../../References/Schemas/" class="md-nav__link">
         Schemas
       </a>
     </li>
@@ -805,7 +803,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../References/Schemas_and_Autogenerated_Classes/" class="md-nav__link">
+      <a href="../../../References/Schemas_and_Autogenerated_Classes/" class="md-nav__link">
         Schemas and Autogenerated Classes
       </a>
     </li>
@@ -846,7 +844,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../References/Dynamic_UI_Schema_Configuration/Overview/" class="md-nav__link">
+      <a href="../../../References/Dynamic_UI_Schema_Configuration/Overview/" class="md-nav__link">
         Overview
       </a>
     </li>
@@ -860,7 +858,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../References/Dynamic_UI_Schema_Configuration/Text_Area/" class="md-nav__link">
+      <a href="../../../References/Dynamic_UI_Schema_Configuration/Text_Area/" class="md-nav__link">
         Text Area
       </a>
     </li>
@@ -874,7 +872,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../References/Dynamic_UI_Schema_Configuration/Hidden_Fields/" class="md-nav__link">
+      <a href="../../../References/Dynamic_UI_Schema_Configuration/Hidden_Fields/" class="md-nav__link">
         Hidden Properties
       </a>
     </li>
@@ -888,7 +886,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../References/Dynamic_UI_Schema_Configuration/Collapsible_Section/" class="md-nav__link">
+      <a href="../../../References/Dynamic_UI_Schema_Configuration/Collapsible_Section/" class="md-nav__link">
         Collapsible Section
       </a>
     </li>
@@ -902,7 +900,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../References/Dynamic_UI_Schema_Configuration/Validation_Messages/" class="md-nav__link">
+      <a href="../../../References/Dynamic_UI_Schema_Configuration/Validation_Messages/" class="md-nav__link">
         Validation Messages
       </a>
     </li>
@@ -923,7 +921,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../References/Platform_Libraries/" class="md-nav__link">
+      <a href="../../../References/Platform_Libraries/" class="md-nav__link">
         Platform Libraries
       </a>
     </li>
@@ -937,7 +935,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../References/Logging/" class="md-nav__link">
+      <a href="../../../References/Logging/" class="md-nav__link">
         Logging
       </a>
     </li>
@@ -951,7 +949,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../References/Workflows/" class="md-nav__link">
+      <a href="../../../References/Workflows/" class="md-nav__link">
         Workflows
       </a>
     </li>
@@ -965,7 +963,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../References/Classes/" class="md-nav__link">
+      <a href="../../../References/Classes/" class="md-nav__link">
         Classes
       </a>
     </li>
@@ -979,7 +977,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../References/Glossary/" class="md-nav__link">
+      <a href="../../../References/Glossary/" class="md-nav__link">
         Glossary
       </a>
     </li>
@@ -993,8 +991,183 @@
   
   
     <li class="md-nav__item">
-      <a href="../../References/Version_Compatibility/" class="md-nav__link">
+      <a href="../../../References/Version_Compatibility/" class="md-nav__link">
         Virtualization SDK Version Compatibility
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          Best Practices
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Best Practices
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Best_Practices/CLI_Configuration_File/" class="md-nav__link">
+        CLI Configuration File
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Best_Practices/Code_Sharing/" class="md-nav__link">
+        Code Sharing
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Best_Practices/Managing_Scripts_For_Remote_Execution/" class="md-nav__link">
+        Managing Scripts for Remote Execution
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Best_Practices/User_Visible_Errors/" class="md-nav__link">
+        User Visible Errors
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Best_Practices/Sensitive_Data/" class="md-nav__link">
+        Dealing With Sensitive Data
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Best_Practices/Strings/" class="md-nav__link">
+        Working With Strings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Best_Practices/Runtime_Environment/" class="md-nav__link">
+        Plugin Runtime Environment
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Best_Practices/Working_with_Powershell/" class="md-nav__link">
+        Working with Powershell
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Best_Practices/Scratch_Paths/" class="md-nav__link">
+        Scratch Paths
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Best_Practices/Message_Limits/" class="md-nav__link">
+        Message Limits
       </a>
     </li>
   
@@ -1022,271 +1195,7 @@
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
-      
-      
-      
-        <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
-          Best Practices
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
-        <label class="md-nav__title" for="__nav_6">
-          <span class="md-nav__icon md-icon"></span>
-          Best Practices
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../CLI_Configuration_File/" class="md-nav__link">
-        CLI Configuration File
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Code_Sharing/" class="md-nav__link">
-        Code Sharing
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Managing_Scripts_For_Remote_Execution/" class="md-nav__link">
-        Managing Scripts for Remote Execution
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../User_Visible_Errors/" class="md-nav__link">
-        User Visible Errors
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-    
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Dealing With Sensitive Data
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        Dealing With Sensitive Data
-      </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#marking-your-data-as-sensitive" class="md-nav__link">
-    Marking Your Data As Sensitive
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#protecting-sensitive-data-with-password-vaults" class="md-nav__link">
-    Protecting Sensitive Data with Password Vaults
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#using-environment-variables-for-remote-data-passing" class="md-nav__link">
-    Using Environment Variables For Remote Data Passing
-  </a>
-  
-    <nav class="md-nav" aria-label="Using Environment Variables For Remote Data Passing">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#example" class="md-nav__link">
-    Example
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#dont-do-this" class="md-nav__link">
-    Don't Do This
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#using-environment-variables" class="md-nav__link">
-    Using Environment Variables
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#dont-write-out-sensitive-data" class="md-nav__link">
-    Don't Write Out Sensitive Data
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Strings/" class="md-nav__link">
-        Working With Strings
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Runtime_Environment/" class="md-nav__link">
-        Plugin Runtime Environment
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Working_with_Powershell/" class="md-nav__link">
-        Working with Powershell
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Scratch_Paths/" class="md-nav__link">
-        Scratch Paths
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Message_Limits/" class="md-nav__link">
-        Message Limits
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-      
-      
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
       
       
       
@@ -1295,7 +1204,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
         <label class="md-nav__title" for="__nav_7">
           <span class="md-nav__icon md-icon"></span>
           Release Notes
@@ -1335,7 +1244,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Release_Notes/4.1.0/4.1.0/" class="md-nav__link">
+      <a href="../../4.1.0/4.1.0/" class="md-nav__link">
         Release - v4.1.0
       </a>
     </li>
@@ -1383,7 +1292,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Release_Notes/4.0.5/4.0.5/" class="md-nav__link">
+      <a href="../../4.0.5/4.0.5/" class="md-nav__link">
         Release - v4.0.5
       </a>
     </li>
@@ -1431,7 +1340,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Release_Notes/4.0.2/4.0.2/" class="md-nav__link">
+      <a href="../../4.0.2/4.0.2/" class="md-nav__link">
         Release - v4.0.2
       </a>
     </li>
@@ -1445,7 +1354,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Release_Notes/4.0.2/4.0.2_Breaking_Changes/" class="md-nav__link">
+      <a href="../../4.0.2/4.0.2_Breaking_Changes/" class="md-nav__link">
         Breaking Changes - v.4.0.2
       </a>
     </li>
@@ -1493,7 +1402,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Release_Notes/3.1.0/3.1.0/" class="md-nav__link">
+      <a href="../../3.1.0/3.1.0/" class="md-nav__link">
         Release - v3.1.0
       </a>
     </li>
@@ -1541,7 +1450,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Release_Notes/3.0.0/3.0.0/" class="md-nav__link">
+      <a href="../../3.0.0/3.0.0/" class="md-nav__link">
         Release - v3.0.0
       </a>
     </li>
@@ -1555,7 +1464,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Release_Notes/3.0.0/3.0.0_Breaking_Changes/" class="md-nav__link">
+      <a href="../../3.0.0/3.0.0_Breaking_Changes/" class="md-nav__link">
         Breaking Changes - v.3.0.0
       </a>
     </li>
@@ -1603,7 +1512,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Release_Notes/2.1.0/2.1.0/" class="md-nav__link">
+      <a href="../../2.1.0/2.1.0/" class="md-nav__link">
         Release - v2.1.0
       </a>
     </li>
@@ -1651,7 +1560,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Release_Notes/2.0.0/2.0.0/" class="md-nav__link">
+      <a href="../../2.0.0/2.0.0/" class="md-nav__link">
         Release - v2.0.0
       </a>
     </li>
@@ -1665,7 +1574,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Release_Notes/2.0.0/2.0.0_Breaking_Changes/" class="md-nav__link">
+      <a href="../../2.0.0/2.0.0_Breaking_Changes/" class="md-nav__link">
         Breaking Changes - GA (v.2.0.0)
       </a>
     </li>
@@ -1713,7 +1622,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Release_Notes/1.0.0/1.0.0/" class="md-nav__link">
+      <a href="../../1.0.0/1.0.0/" class="md-nav__link">
         Release - v1.0.0
       </a>
     </li>
@@ -1727,7 +1636,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Release_Notes/1.0.0/1.0.0_Breaking_Changes/" class="md-nav__link">
+      <a href="../../1.0.0/1.0.0_Breaking_Changes/" class="md-nav__link">
         Breaking Changes - GA (v.1.0.0)
       </a>
     </li>
@@ -1746,14 +1655,16 @@
               
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_9" >
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_9" checked>
       
       
       
@@ -1762,7 +1673,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_9_label" aria-expanded="false">
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_9_label" aria-expanded="true">
         <label class="md-nav__title" for="__nav_7_9">
           <span class="md-nav__icon md-icon"></span>
           0.4.0
@@ -1775,7 +1686,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Release_Notes/0.4.0/0.4.0/" class="md-nav__link">
+      <a href="../0.4.0/" class="md-nav__link">
         Release - Early Preview 2 (v0.4.0)
       </a>
     </li>
@@ -1787,11 +1698,133 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../Release_Notes/0.4.0/0.4.0_Breaking_Changes/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Breaking Changes - Early Preview 2 (v.0.4.0)
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Breaking Changes - Early Preview 2 (v.0.4.0)
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#new-argument-snapshot_parameters" class="md-nav__link">
+    New Argument snapshot_parameters
+  </a>
+  
+    <nav class="md-nav" aria-label="New Argument snapshot_parameters">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-affected" class="md-nav__link">
+    What is affected
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-does-it-fail" class="md-nav__link">
+    How does it fail
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-fix-it" class="md-nav__link">
+    How to fix it
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stagedsource-properties-modified" class="md-nav__link">
+    StagedSource Properties Modified
+  </a>
+  
+    <nav class="md-nav" aria-label="StagedSource Properties Modified">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-affected_1" class="md-nav__link">
+    What is affected
+  </a>
+  
+    <nav class="md-nav" aria-label="What is affected">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#required-changes" class="md-nav__link">
+    Required Changes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optional-changes" class="md-nav__link">
+    Optional Changes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-does-it-fail_1" class="md-nav__link">
+    How does it fail
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-fix-it_1" class="md-nav__link">
+    How to fix it
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1837,44 +1870,30 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#marking-your-data-as-sensitive" class="md-nav__link">
-    Marking Your Data As Sensitive
+  <a href="#new-argument-snapshot_parameters" class="md-nav__link">
+    New Argument snapshot_parameters
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#protecting-sensitive-data-with-password-vaults" class="md-nav__link">
-    Protecting Sensitive Data with Password Vaults
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#using-environment-variables-for-remote-data-passing" class="md-nav__link">
-    Using Environment Variables For Remote Data Passing
-  </a>
-  
-    <nav class="md-nav" aria-label="Using Environment Variables For Remote Data Passing">
+    <nav class="md-nav" aria-label="New Argument snapshot_parameters">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#example" class="md-nav__link">
-    Example
+  <a href="#what-is-affected" class="md-nav__link">
+    What is affected
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#dont-do-this" class="md-nav__link">
-    Don't Do This
+  <a href="#how-does-it-fail" class="md-nav__link">
+    How does it fail
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#using-environment-variables" class="md-nav__link">
-    Using Environment Variables
+  <a href="#how-to-fix-it" class="md-nav__link">
+    How to fix it
   </a>
   
 </li>
@@ -1885,9 +1904,56 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#dont-write-out-sensitive-data" class="md-nav__link">
-    Don't Write Out Sensitive Data
+  <a href="#stagedsource-properties-modified" class="md-nav__link">
+    StagedSource Properties Modified
   </a>
+  
+    <nav class="md-nav" aria-label="StagedSource Properties Modified">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-affected_1" class="md-nav__link">
+    What is affected
+  </a>
+  
+    <nav class="md-nav" aria-label="What is affected">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#required-changes" class="md-nav__link">
+    Required Changes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optional-changes" class="md-nav__link">
+    Optional Changes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-does-it-fail_1" class="md-nav__link">
+    How does it fail
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-fix-it_1" class="md-nav__link">
+    How to fix it
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1909,115 +1975,111 @@
   
 
 
-<h1 id="dealing-with-sensitive-data">Dealing With Sensitive Data<a class="headerlink" href="#dealing-with-sensitive-data" title="Permanent link">&para;</a></h1>
-<p>Often, a plugin will need to handle sensitive user-provided data. The most common example of this is a database password.</p>
-<p>Plugins must be careful to handle sensitive data appropriately. Three tips for handling sensitive data are:</p>
-<ol>
-<li>Tell the Delphix Engine which parts of your data are sensitive.</li>
-<li>When passing sensitive data to remote plugin library functions (such as <code>run_bash</code>), use environment variables.</li>
-<li>Avoid logging, or otherwise writing out the sensitive data.</li>
-</ol>
-<p>Each of these tips are explained below.</p>
-<h2 id="marking-your-data-as-sensitive">Marking Your Data As Sensitive<a class="headerlink" href="#marking-your-data-as-sensitive" title="Permanent link">&para;</a></h2>
-<p>Because the Delphix Engine manages the storing and retrieving of plugin-defined data, it needs to know which pieces of data are sensitive. The plugin does this in its <a href="../../References/Glossary/#schema">schemas</a>, by using the special <a href="../../References/Schemas/#password"><code>password</code></a> keyword.</p>
-<p>The following example of a schema defines an object with three properties, one of which is sensitive and tagged with the <code>password</code> keyword:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="p">{</span>
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">    </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;object&quot;</span><span class="p">,</span>
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="nt">&quot;properties&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">        </span><span class="nt">&quot;db_connectionPort&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;string&quot;</span><span class="p">},</span>
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">        </span><span class="nt">&quot;db_username&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;string&quot;</span><span class="p">},</span>
-<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">        </span><span class="nt">&quot;db_password&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;string&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;format&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;password&quot;</span><span class="p">}</span>
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">    </span><span class="p">}</span>
-<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="p">}</span>
+<h1 id="breaking-changes-early-preview-2-v040">Breaking Changes - Early Preview 2 (v.0.4.0)<a class="headerlink" href="#breaking-changes-early-preview-2-v040" title="Permanent link">&para;</a></h1>
+<h2 id="new-argument-snapshot_parameters">New Argument <code>snapshot_parameters</code><a class="headerlink" href="#new-argument-snapshot_parameters" title="Permanent link">&para;</a></h2>
+<p>A new argument <code>snapshot_parameters</code> was added to the following <strong>staged</strong> plugin operations:</p>
+<ul>
+<li><a href="../../../References/Plugin_Operations/#staged-linked-source-pre-snapshot">Staged Linked Source Pre-Snapshot</a></li>
+<li><a href="../../../References/Plugin_Operations/#staged-linked-source-post-snapshot">Staged Linked Source Post-Snapshot</a></li>
+</ul>
+<p>This argument will allow the end user to indicate to the plugin whether or not to initiate a full ingestion for a dSource. More details about the new argument are <a href="../../../Building_Your_First_Plugin/Data_Ingestion/">here</a>.</p>
+<h3 id="what-is-affected">What is affected<a class="headerlink" href="#what-is-affected" title="Permanent link">&para;</a></h3>
+<p>This argument applies only to <strong>staged</strong> plugins. The plugin's source code will have to be updated for the following staged plugin operations:</p>
+<ul>
+<li><a href="../../../References/Plugin_Operations/#staged-linked-source-pre-snapshot">Staged Linked Source Pre-Snapshot</a>: This plugin operation is optional and will need to be updated if the plugin implements it.</li>
+<li><a href="../../../References/Plugin_Operations/#staged-linked-source-post-snapshot">Staged Linked Source Post-Snapshot</a>: This plugin operation is required and will need to be updated.</li>
+</ul>
+<h3 id="how-does-it-fail">How does it fail<a class="headerlink" href="#how-does-it-fail" title="Permanent link">&para;</a></h3>
+<p><a href="../../../References/CLI/#build">build</a> will fail with the following error message if the new argument is not added to the affected staged plugin operations:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>$<span class="w"> </span>dvp<span class="w"> </span>build
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>Error:<span class="w"> </span>Number<span class="w"> </span>of<span class="w"> </span>arguments<span class="w"> </span><span class="k">do</span><span class="w"> </span>not<span class="w"> </span>match<span class="w"> </span><span class="k">in</span><span class="w"> </span>method<span class="w"> </span>staged_post_snapshot.<span class="w"> </span>Expected:<span class="w"> </span><span class="o">[</span><span class="s1">&#39;staged_source&#39;</span>,<span class="w"> </span><span class="s1">&#39;repository&#39;</span>,<span class="w"> </span><span class="s1">&#39;source_config&#39;</span>,<span class="w"> </span><span class="s1">&#39;snapshot_parameters&#39;</span><span class="o">]</span>,<span class="w"> </span>Found:<span class="w"> </span><span class="o">[</span><span class="s1">&#39;repository&#39;</span>,<span class="w"> </span><span class="s1">&#39;source_config&#39;</span>,<span class="w"> </span><span class="s1">&#39;staged_source&#39;</span><span class="o">]</span>.
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>Error:<span class="w"> </span>Number<span class="w"> </span>of<span class="w"> </span>arguments<span class="w"> </span><span class="k">do</span><span class="w"> </span>not<span class="w"> </span>match<span class="w"> </span><span class="k">in</span><span class="w"> </span>method<span class="w"> </span>staged_pre_snapshot.<span class="w"> </span>Expected:<span class="w"> </span><span class="o">[</span><span class="s1">&#39;staged_source&#39;</span>,<span class="w"> </span><span class="s1">&#39;repository&#39;</span>,<span class="w"> </span><span class="s1">&#39;source_config&#39;</span>,<span class="w"> </span><span class="s1">&#39;snapshot_parameters&#39;</span><span class="o">]</span>,<span class="w"> </span>Found:<span class="w"> </span><span class="o">[</span><span class="s1">&#39;repository&#39;</span>,<span class="w"> </span><span class="s1">&#39;source_config&#39;</span>,<span class="w"> </span><span class="s1">&#39;staged_source&#39;</span><span class="o">]</span>.
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="m">0</span><span class="w"> </span>Warning<span class="o">(</span>s<span class="o">)</span>.<span class="w"> </span><span class="m">2</span><span class="w"> </span>Error<span class="o">(</span>s<span class="o">)</span>.
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>BUILD<span class="w"> </span>FAILED.
 </code></pre></div>
-<p>This tells the Delphix Engine to take special precautions with this password property, as follows:</p>
-<ol>
-<li>The Delphix Engine will encrypt the password before storing it, and decrypt it only as necessary to pass back to the plugin.</li>
-<li>The Delphix Engine will not write this password anywhere (for example, it will not appear in any system logs).</li>
-<li>The Delphix Engine's UI and CLI will not display the password.</li>
-<li>Clients of the Delphix Engine's public API will not be able to access the password.</li>
-</ol>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Removing a previously added password property from a field and running a <a href="../../References/Glossary/#data-migration">Data Migration</a> will expose the password in plaintext. If this is intentional, write a migration to ensure that the new property conforms to the new schema.</p>
-</div>
-<h2 id="protecting-sensitive-data-with-password-vaults">Protecting Sensitive Data with Password Vaults<a class="headerlink" href="#protecting-sensitive-data-with-password-vaults" title="Permanent link">&para;</a></h2>
-<p>Plugins can also leverage the password vaults configured in the Delphix engine to avoid storing sensitive data in the engine itself. In addition, vaults can rotate secrets seamlessly behind the scenes without requiring Delphix users to update those secrets in the engine. To give users the option to choose between directly entering a secret, such as a password or private key, or retrieving it from a vault, Delphix provides <a href="../../References/Schemas/#delphix-specific-pre-defined-types">pre-defined credential types</a>.</p>
-<p>When using these special types, the example above becomes:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="p">{</span>
-<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">    </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;object&quot;</span><span class="p">,</span>
-<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">    </span><span class="nt">&quot;properties&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">        </span><span class="nt">&quot;db_connectionPort&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;string&quot;</span><span class="p">},</span>
-<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">        </span><span class="nt">&quot;db_credentials_supplier&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">          </span><span class="nt">&quot;$ref&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://delphix.com/platform/api#/definitions/passwordCredentialsSupplier&quot;</span>
-<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">        </span><span class="p">}</span>
-<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="w">    </span><span class="p">}</span>
-<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="p">}</span>
+<h3 id="how-to-fix-it">How to fix it<a class="headerlink" href="#how-to-fix-it" title="Permanent link">&para;</a></h3>
+<p>Update the affected staged plugin operations to include the new argument <code>snapshot_parameters</code>.</p>
+<ul>
+<li>Previous releases</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kn">from</span> <span class="nn">dlpx.virtualization.platform</span> <span class="kn">import</span> <span class="n">Plugin</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="n">plugin</span> <span class="o">=</span> <span class="n">Plugin</span><span class="p">()</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="nd">@plugin</span><span class="o">.</span><span class="n">linked</span><span class="o">.</span><span class="n">pre_snapshot</span><span class="p">()</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="k">def</span> <span class="nf">linked_pre_snapshot_prior</span><span class="p">(</span><span class="n">staged_source</span><span class="p">,</span> <span class="n">repository</span><span class="p">,</span> <span class="n">source_config</span><span class="p">):</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>  <span class="c1"># This was the function signature prior to 0.4.0</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>  <span class="k">pass</span>
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="nd">@plugin</span><span class="o">.</span><span class="n">linked</span><span class="o">.</span><span class="n">post_snapshot</span><span class="p">()</span>
+<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="k">def</span> <span class="nf">linked_post_snapshot_prior</span><span class="p">(</span><span class="n">staged_source</span><span class="p">,</span> <span class="n">repository</span><span class="p">,</span> <span class="n">source_config</span><span class="p">):</span>
+<a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a>  <span class="c1"># This was the function signature prior to 0.4.0</span>
+<a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a>  <span class="k">return</span> <span class="n">SnapshotDefinition</span><span class="p">()</span>
 </code></pre></div>
-<p>For details on how the user can provide the information required for a property such as <code>db_credentials_supplier</code>, see the <a href="../../References/Schemas/#delphix-specific-pre-defined-types">section on pre-defined types</a>.</p>
-<p>At runtime, the plugin code must convert the credentials information provided by the user into an actual set of credentials that the plugin can use. To do this, the plugin must call the library function <a href="../../References/Platform_Libraries/#retrieve_credentials"><code>retrieve_credentials</code></a>. For example:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kn">from</span> <span class="nn">dlpx.virtualization</span> <span class="kn">import</span> <span class="n">libs</span>
-<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="kn">from</span> <span class="nn">dlpx.virtualization.common</span> <span class="kn">import</span> <span class="n">PasswordCredentials</span>
-<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="o">...</span>
-<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="nd">@plugin</span><span class="o">.</span><span class="n">virtual</span><span class="o">.</span><span class="n">stop</span><span class="p">()</span>
-<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="k">def</span> <span class="nf">my_virtual_stop</span><span class="p">(</span><span class="n">virtual_source</span><span class="p">,</span> <span class="n">repository</span><span class="p">,</span> <span class="n">source_config</span><span class="p">):</span>
-<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>  <span class="n">credentials</span> <span class="o">=</span> <span class="n">libs</span><span class="o">.</span><span class="n">retrieve_credentials</span><span class="p">(</span><span class="n">virtual_source</span><span class="o">.</span><span class="n">parameters</span><span class="o">.</span><span class="n">db_credentials_supplier</span><span class="p">)</span>
-<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>  <span class="k">assert</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">credentials</span><span class="p">,</span> <span class="n">PasswordCredentials</span><span class="p">)</span>
-<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>  <span class="n">connect_to_dbms</span><span class="p">(</span><span class="n">credentials</span><span class="o">.</span><span class="n">username</span><span class="p">,</span> <span class="n">credentials</span><span class="o">.</span><span class="n">password</span><span class="p">)</span>
+<ul>
+<li>0.4.0</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kn">from</span> <span class="nn">dlpx.virtualization.platform</span> <span class="kn">import</span> <span class="n">Plugin</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="n">plugin</span> <span class="o">=</span> <span class="n">Plugin</span><span class="p">()</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="nd">@plugin</span><span class="o">.</span><span class="n">linked</span><span class="o">.</span><span class="n">pre_snapshot</span><span class="p">()</span>
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="k">def</span> <span class="nf">linked_pre_snapshot_040</span><span class="p">(</span><span class="n">staged_source</span><span class="p">,</span> <span class="n">repository</span><span class="p">,</span> <span class="n">source_config</span><span class="p">,</span> <span class="n">snapshot_parameters</span><span class="p">):</span>
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>  <span class="c1"># Updated function signature in 0.4.0</span>
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>  <span class="k">pass</span>
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a>
+<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="nd">@plugin</span><span class="o">.</span><span class="n">linked</span><span class="o">.</span><span class="n">post_snapshot</span><span class="p">()</span>
+<a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="k">def</span> <span class="nf">linked_post_snapshot_040</span><span class="p">(</span><span class="n">staged_source</span><span class="p">,</span> <span class="n">repository</span><span class="p">,</span> <span class="n">source_config</span><span class="p">,</span> <span class="n">snapshot_parameters</span><span class="p">):</span>
+<a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a>  <span class="c1"># Updated function signature in 0.4.0</span>
+<a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a>  <span class="k">return</span> <span class="n">SnapshotDefinition</span><span class="p">()</span>
 </code></pre></div>
-<h2 id="using-environment-variables-for-remote-data-passing">Using Environment Variables For Remote Data Passing<a class="headerlink" href="#using-environment-variables-for-remote-data-passing" title="Permanent link">&para;</a></h2>
-<p>Sometimes, a plugin will need to pass sensitive data to a remote environment. For example, perhaps a database command needs to be run on a <a href="../../References/Glossary/#staging-environment">staging environment</a>, and that database command will need to use a password.</p>
-<h3 id="example">Example<a class="headerlink" href="#example" title="Permanent link">&para;</a></h3>
-<p>Let us take a look at a very simple example where we need to shutdown a database called "inventory" on a target environment by using the <code>db_cmd shutdown inventory</code> command. This command will ask for a password on <code>stdin</code>, and for our example our password is "hunter2".</p>
-<p>If we were running this command by hand, it might look like this:
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>$<span class="w"> </span>db_cmd<span class="w"> </span>shutdown<span class="w"> </span>inventory
-<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>Connecting<span class="w"> </span>to<span class="w"> </span>database<span class="w"> </span>instance...
-<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>Please<span class="w"> </span>enter<span class="w"> </span>database<span class="w"> </span>password:
-</code></pre></div></p>
-<p>At this point, we would type in "hunter2", and the command would proceed to shut down the database.</p>
-<p>Since a plugin cannot type in the password by hand, it will do something like this instead:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>$<span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;hunter2&quot;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>db_cmd<span class="w"> </span>shutdown<span class="w"> </span>inventory
+<h2 id="stagedsource-properties-modified">StagedSource Properties Modified<a class="headerlink" href="#stagedsource-properties-modified" title="Permanent link">&para;</a></h2>
+<p>Properties of the <a href="../../../References/Classes/#stagedsource">StagedSource</a> class were modified:</p>
+<ul>
+<li><code>connection</code> was renamed to <code>source_connection</code>.</li>
+<li><code>staged_connection</code> was added to allow connecting to the staging environment.</li>
+</ul>
+<p>This will enable plugins to connect to both the source and staging environments. More details about these properties are <a href="../../../References/Classes/#stagedsource">here</a>.</p>
+<h3 id="what-is-affected_1">What is affected<a class="headerlink" href="#what-is-affected_1" title="Permanent link">&para;</a></h3>
+<p>This change applies only to <strong>staged</strong> plugins.<br/></p>
+<h4 id="required-changes">Required Changes<a class="headerlink" href="#required-changes" title="Permanent link">&para;</a></h4>
+<p>The plugin's source code will have to be updated for any staged plugin operations that accesses the <code>connection</code> propery of a <a href="../../../References/Classes/#stagedsource">StagedSource</a> object.</p>
+<h4 id="optional-changes">Optional Changes<a class="headerlink" href="#optional-changes" title="Permanent link">&para;</a></h4>
+<p>The plugin can choose to use the new <code>staged_connection</code> property to connect to the staging environment of a dSource.</p>
+<h3 id="how-does-it-fail_1">How does it fail<a class="headerlink" href="#how-does-it-fail_1" title="Permanent link">&para;</a></h3>
+<p>Any Delphix Engine operation that calls a plugin operation that has not been fixed would fail with the following stack trace as part of the output of the user exception:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="ne">AttributeError</span><span class="p">:</span> <span class="s1">&#39;StagedSource&#39;</span> <span class="nb">object</span> <span class="n">has</span> <span class="n">no</span> <span class="n">attribute</span> <span class="s1">&#39;connection&#39;</span>
 </code></pre></div>
-<h3 id="dont-do-this">Don't Do This<a class="headerlink" href="#dont-do-this" title="Permanent link">&para;</a></h3>
-<p>First, let us take a look at how <strong>not</strong> to do this! Here is a bit of plugin python code that will run the above command.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="kn">from</span> <span class="nn">dlpx.virtualization</span> <span class="kn">import</span> <span class="n">libs</span>
-<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="kn">from</span> <span class="nn">dlpx.virtualization.platform</span> <span class="kn">import</span> <span class="n">Plugin</span>
+<h3 id="how-to-fix-it_1">How to fix it<a class="headerlink" href="#how-to-fix-it_1" title="Permanent link">&para;</a></h3>
+<p>Update any staged plugin operations that access the renamed property.</p>
+<ul>
+<li>Previous releases</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kn">from</span> <span class="nn">dlpx.virtualization.platform</span> <span class="kn">import</span> <span class="n">Plugin</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="kn">from</span> <span class="nn">dlpx.virtualization</span> <span class="kn">import</span> <span class="n">libs</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="n">plugin</span> <span class="o">=</span> <span class="n">Plugin</span><span class="p">()</span>
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>
+<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="nd">@plugin</span><span class="o">.</span><span class="n">linked</span><span class="o">.</span><span class="n">pre_snapshot</span><span class="p">()</span>
+<a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="k">def</span> <span class="nf">linked_pre_snapshot_prior</span><span class="p">(</span><span class="n">staged_source</span><span class="p">,</span> <span class="n">repository</span><span class="p">,</span> <span class="n">source_config</span><span class="p">):</span>
+<a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>  <span class="c1"># Property name was &#39;connection&#39; was the name of the property for staged_source prior to 0.4.0</span>
+<a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a>  <span class="n">libs</span><span class="o">.</span><span class="n">run_bash</span><span class="p">(</span><span class="n">staged_source</span><span class="o">.</span><span class="n">connection</span><span class="p">,</span> <span class="s1">&#39;date&#39;</span><span class="p">)</span>
+</code></pre></div>
+<ul>
+<li>0.4.0</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="kn">from</span> <span class="nn">dlpx.virtualization.platform</span> <span class="kn">import</span> <span class="n">Plugin</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="kn">from</span> <span class="nn">dlpx.virtualization</span> <span class="kn">import</span> <span class="n">libs</span>
 <a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>
 <a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="n">plugin</span> <span class="o">=</span> <span class="n">Plugin</span><span class="p">()</span>
 <a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>
-<a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a><span class="nd">@plugin</span><span class="o">.</span><span class="n">virtual</span><span class="o">.</span><span class="n">stop</span><span class="p">()</span>
-<a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a><span class="k">def</span> <span class="nf">my_virtual_stop</span><span class="p">(</span><span class="n">virtual_source</span><span class="p">,</span> <span class="n">repository</span><span class="p">,</span> <span class="n">source_config</span><span class="p">):</span>
-<a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a>  <span class="c1"># THIS IS INSECURE! DO NOT DO THIS!</span>
-<a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a>  <span class="n">full_command</span> <span class="o">=</span> <span class="s2">&quot;echo </span><span class="si">{}</span><span class="s2"> | db_cmd shutdown </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">password</span><span class="p">,</span> <span class="n">db_name</span><span class="p">)</span>
-<a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a>  <span class="n">libs</span><span class="o">.</span><span class="n">run_bash</span><span class="p">(</span><span class="n">virtual_source</span><span class="o">.</span><span class="n">connection</span><span class="p">,</span> <span class="n">full_command</span><span class="p">)</span>
+<a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a><span class="nd">@plugin</span><span class="o">.</span><span class="n">linked</span><span class="o">.</span><span class="n">pre_snapshot</span><span class="p">()</span>
+<a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a><span class="k">def</span> <span class="nf">linked_pre_snapshot_prior</span><span class="p">(</span><span class="n">staged_source</span><span class="p">,</span> <span class="n">repository</span><span class="p">,</span> <span class="n">source_config</span><span class="p">):</span>
+<a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a>  <span class="c1"># Property name was updated to &#39;source_connection&#39; in 0.4.0</span>
+<a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a>  <span class="n">libs</span><span class="o">.</span><span class="n">run_bash</span><span class="p">(</span><span class="n">staged_source</span><span class="o">.</span><span class="n">source_connection</span><span class="p">,</span> <span class="s1">&#39;date&#39;</span><span class="p">)</span>
 </code></pre></div>
-<p>This constructs a Python string containing exactly the desired command from above. However, this is not recommended.</p>
-<p>The problem here is that there is a cleartext password in the Python string. But, this Python string is not treated as sensitive by the Virtualization Platform. For example, suppose the Virtualization Platform cannot make a connection to the target environment. In which case, it will raise an error containing the Python string, so that people will know what command failed. But, in our example, that would result in the password being part of the cleartext error message.</p>
-<h3 id="using-environment-variables">Using Environment Variables<a class="headerlink" href="#using-environment-variables" title="Permanent link">&para;</a></h3>
-<p>The Delphix Engine provides a better way to pass sensitive data to remote bash (or powershell) calls: environment variables. Let us look at a different way to run the same command as above.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="kn">from</span> <span class="nn">dlpx.virtualization</span> <span class="kn">import</span> <span class="n">libs</span>
-<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="kn">from</span> <span class="nn">dlpx.virtualization.platform</span> <span class="kn">import</span> <span class="n">Plugin</span>
-<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>
-<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="n">plugin</span> <span class="o">=</span> <span class="n">Plugin</span><span class="p">()</span>
-<a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>
-<a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a><span class="nd">@plugin</span><span class="o">.</span><span class="n">virtual</span><span class="o">.</span><span class="n">stop</span><span class="p">()</span>
-<a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a>  <span class="c1"># Use environment variables to pass sensitive data to remote commands</span>
-<a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a>  <span class="n">environment_vars</span> <span class="o">=</span> <span class="p">{</span>
-<a id="__codelineno-6-9" name="__codelineno-6-9" href="#__codelineno-6-9"></a>    <span class="s2">&quot;DATABASE_PASSWORD&quot;</span> <span class="p">:</span> <span class="n">password</span>
-<a id="__codelineno-6-10" name="__codelineno-6-10" href="#__codelineno-6-10"></a>  <span class="p">}</span>
-<a id="__codelineno-6-11" name="__codelineno-6-11" href="#__codelineno-6-11"></a>  <span class="n">full_command</span> <span class="o">=</span> <span class="s2">&quot;echo $DATABASE_PASSWORD | db_cmd shutdown </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">db_name</span><span class="p">)</span>
-<a id="__codelineno-6-12" name="__codelineno-6-12" href="#__codelineno-6-12"></a>  <span class="n">libs</span><span class="o">.</span><span class="n">run_bash</span><span class="p">(</span><span class="n">virtual_source</span><span class="o">.</span><span class="n">connection</span><span class="p">,</span> <span class="n">full_command</span><span class="p">,</span> <span class="n">variables</span><span class="o">=</span><span class="n">environment_vars</span><span class="p">)</span>
-</code></pre></div>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>We are no longer putting the cleartext password into the Python command string. Instead, we are instructing the Virtualization Platform to put the password into an environment variable on the target environment. The Python command string merely mentions the name of the environment variable, and does not contain the password itself.</p>
-</div>
-<p>Once the command runs on the target environment, Bash will substitute in the password, and the database shutdown will run as expected.</p>
-<p>Unlike with the command string, the Virtualization Platform <strong>does</strong> treat environment variables as sensitive information, and will not include them in error messages or internal logs, etc.</p>
-<h2 id="dont-write-out-sensitive-data">Don't Write Out Sensitive Data<a class="headerlink" href="#dont-write-out-sensitive-data" title="Permanent link">&para;</a></h2>
-<p>Plugin writers are strongly advised to never write out unencrypted sensitive data. This is common-sense general advice that applies to all areas of programming, not just for plugins. However, there are a couple of special concerns for plugins.</p>
-<p>The Virtualization Platform provides logging capabilities to plugins. The generated logs are unencrypted and not treated as sensitive. Therefore, it is important for plugins to <strong>never log sensitive data</strong>.</p>
-<p>In addition, remember that your plugin is not treated as sensitive by the Virtualization Platform. Plugin code is distributed unencrypted, and is viewable in cleartext by Delphix Engine users. Sensitive data such as passwords should never be hard-coded in your plugin code.</p>
 
 
   
@@ -2041,7 +2103,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../User_Visible_Errors/" class="md-footer__link md-footer__link--prev" aria-label="Previous: User Visible Errors" rel="prev">
+          <a href="../0.4.0/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Release - Early Preview 2 (v0.4.0)" rel="prev">
             <div class="md-footer__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
             </div>
@@ -2050,26 +2112,11 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                User Visible Errors
+                Release - Early Preview 2 (v0.4.0)
               </div>
             </div>
           </a>
         
-        
-          
-          <a href="../Strings/" class="md-footer__link md-footer__link--next" aria-label="Next: Working With Strings" rel="next">
-            <div class="md-footer__title">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              <div class="md-ellipsis">
-                Working With Strings
-              </div>
-            </div>
-            <div class="md-footer__button md-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
-            </div>
-          </a>
         
       </nav>
     
@@ -2153,10 +2200,10 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.footer", "navigation.tabs", "navigation.tabs.sticky", "content.code.copy", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.footer", "navigation.tabs", "navigation.tabs.sticky", "content.code.copy", "content.code.annotate"], "search": "../../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.51198bba.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.51198bba.min.js"></script>
       
     
   </body>
