@@ -3425,14 +3425,14 @@
 
 <h1 id="replication">Replication<a class="headerlink" href="#replication" title="Permanent link">&para;</a></h1>
 <p>A Delphix Engine (source) can be setup to replicate data objects to another Delphix Engine (target). Plugins built using the Virtualization SDK work seamlessly with Delphix Engine replication with no additional development required from plugin developers.</p>
-<p>Only a single version of a plugin can be active on a Delphix Engine at a time. We discuss some basic scenarios below. For more detailed information refer to the <a href="https://cd.delphix.com/docs/latest/">Delphix Engine Documentation</a>.</p>
+<p>Only a single version of a plugin can be active on a Delphix Engine at a time. We discuss some basic scenarios below. For more detailed information refer to the <a href="https://help.delphix.com/cd/current/content/home.htm">Delphix Engine Documentation</a>.</p>
 <h2 id="replica-provisioning">Replica Provisioning<a class="headerlink" href="#replica-provisioning" title="Permanent link">&para;</a></h2>
 <p>Replicated dSource or VDB snapshots can be used to provision new VDBs onto a target Delphix Engine, without failing over any of the objects. When provisioning a VDB from a replicated snapshot:</p>
 <ul>
 <li>A version of the plugin has to be installed on the target Delphix Engine.</li>
 <li>The versions of the plugins installed on the source and target Delphix Engines have to be <a href="../Compatibility/">compatible</a>.</li>
 </ul>
-<p>Once provisioned, the VDB on the target Delphix Engine will be associated with the version of the plugin installed on the target Delphix Engine, any required data migrations will be run as part of the provisioning process. For more details refer to the <a href="https://cd.delphix.com/docs/latest/">Delphix Engine Documentation</a>.</p>
+<p>Once provisioned, the VDB on the target Delphix Engine will be associated with the version of the plugin installed on the target Delphix Engine, any required data migrations will be run as part of the provisioning process. For more details refer to the <a href="https://help.delphix.com/cd/current/content/home.htm">Delphix Engine Documentation</a>.</p>
 <h2 id="replication-failover">Replication Failover<a class="headerlink" href="#replication-failover" title="Permanent link">&para;</a></h2>
 <p>On failover, there are three scenarios for each plugin:</p>
 <table>
@@ -3453,7 +3453,7 @@
 </tr>
 <tr>
 <td>Source plugin version <strong>is not equal to</strong> the target plugin version</td>
-<td>The plugin from the source will be marked <code>inactive</code> on the target Delphix Engine. An <code>inactive</code> plugin can be subsequently activated, after failover, if it is <a href="../Compatibility/">compatible</a> with the existing <code>active</code> plugin. Activating a plugin will do an upgrade and merge the <code>inactive</code> plugin, and all its associated objects, with the <code>active</code> plugin. For more details refer to the <a href="https://cd.delphix.com/docs/latest/">Delphix Engine Documentation</a>.</td>
+<td>The plugin from the source will be marked <code>inactive</code> on the target Delphix Engine. An <code>inactive</code> plugin can be subsequently activated, after failover, if it is <a href="../Compatibility/">compatible</a> with the existing <code>active</code> plugin. Activating a plugin will do an upgrade and merge the <code>inactive</code> plugin, and all its associated objects, with the <code>active</code> plugin. For more details refer to the <a href="https://help.delphix.com/cd/current/content/home.htm">Delphix Engine Documentation</a>.</td>
 </tr>
 </tbody>
 </table>
